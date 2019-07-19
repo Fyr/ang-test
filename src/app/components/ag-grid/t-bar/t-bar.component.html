@@ -1,0 +1,22 @@
+<div>
+  <div class="panel-body">
+
+    <div class="panel-group">
+      <label class="panel-group__label">Toggle selection mode:</label>
+      <div>
+        <t-switch (change)="toogleSelectionMode($event)"></t-switch>
+      </div>
+    </div>
+
+    <div class="panel-group">
+      <label class="panel-group__label">Total count of records:</label>
+      <div class="panel-group__value">{{ totalRowsCount }}</div>
+    </div>
+
+    <div class="panel-group">
+      <label class="panel-group__label">Selected records count:</label>
+      <div class="panel-group__value">{{ selectedRowsCount }}</div>
+    </div>
+
+  </div>
+</div>

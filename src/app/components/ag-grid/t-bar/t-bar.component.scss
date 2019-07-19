@@ -1,0 +1,27 @@
+:host {
+    width: 100%;
+}
+
+.panel-header {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.panel-body {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.panel-group {
+    margin-bottom: 15px;
+    font-size: 16px;
+    &__label {        
+        display: inline-block;
+        margin-bottom: 7px;
+    }
+    &__value {
+        color: #333;
+        font-size: 21px;
+    }
+}
